@@ -1,5 +1,6 @@
 # PerformanceScope
-usage:
+Usage:
+```csharp
     PerformanceScope scope;
     using (var wrapper = PerformanceScope.Create("RootScope", request.Method.Method, request.RequestUri))
     {
@@ -11,3 +12,4 @@ usage:
       }
     }
     // scope contains all performance info
+```
