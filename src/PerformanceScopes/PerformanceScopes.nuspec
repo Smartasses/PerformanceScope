@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PerformanceScopes</id>
+    <version>1.0.0</version>
+    <title>PerformanceScopes</title>
+    <authors>Glenn Dierckx</authors>
+    <owners>GlennDierckx</owners>
+    <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>-->
+    <projectUrl>https://github.com/Smartasses/PerformanceScope</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PerformanceScopes is an advanced stopwatch which can be nested and return simple results.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>PerformanceScopes PerformanceProfile SmartAsses</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\net452\PerformanceScopes.dll" target="lib\net452\PerformanceScopes.dll" />
+    <file src="bin\Release\net452\PerformanceScopes.pdb" target="lib\net452\PerformanceScopes.pdb" />
+    <file src="bin\Release\net461\PerformanceScopes.dll" target="lib\net461\PerformanceScopes.dll" />
+    <file src="bin\Release\net461\PerformanceScopes.pdb" target="lib\net461\PerformanceScopes.pdb" />
+  </files>
+</package>
